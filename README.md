@@ -36,10 +36,10 @@ Rename `Sample.env` to `.env` and update the variables as required.
 
 Update the values below with your AWS credentials and region.
 
-```javascript
-AWSREGION = YOURDATAHERE
-AWSACCESSKEYID = YOURDATAHERE
-AWSSECRETACCESSKEY = YOURDATAHERE
+```json
+AWSREGION=YOURDATAHERE
+AWSACCESSKEYID=YOURDATAHERE
+AWSSECRETACCESSKEY=YOURDATAHERE
 ```
 
 All the rules you want updated should have the same description so they can be found every time. IE: `Mike@Home`. Update the `.env` file to match your description.
