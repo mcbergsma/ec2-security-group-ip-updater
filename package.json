@@ -1,0 +1,17 @@
+{
+  "name": "ec2-security-group-ip-updater",
+  "version": "1.0.0",
+  "description": "Updates security groups on AWS to include the current IP of the machine running the script",
+  "main": "update.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node update.js"
+  },
+  "author": "Mike Bergsma (mcbergsma@gmail.com)",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.534.0",
+    "axios": "^0.19.0",
+    "dotenv": "^8.1.0"
+  }
+}
