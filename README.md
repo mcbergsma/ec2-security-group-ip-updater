@@ -19,11 +19,7 @@ Create an AWS IAM Policy with the following permissions and assign it to a new o
       "Effect": "Allow",
       "Action": [
         "ec2:RevokeSecurityGroupIngress",
-        "ec2:AuthorizeSecurityGroupEgress",
         "ec2:AuthorizeSecurityGroupIngress",
-        "ec2:DescribeSecurityGroupReferences",
-        "ec2:RevokeSecurityGroupEgress",
-        "ec2:DeleteSecurityGroup",
         "ec2:DescribeSecurityGroups"
       ],
       "Resource": "*"
