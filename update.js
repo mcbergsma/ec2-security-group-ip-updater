@@ -94,10 +94,9 @@
     })
   )
 
-  const updateMessage = `Removed ${revokeResults.length} rules and created ${
-    authResults.length
-  } new ones. \n ${JSON.stringify(revokeResults)}, ${JSON.stringify(
-    authResults
-  )} \n\n`
+  const updateMessage = `Removed ${revokeResults.length} rules and created ${authResults.length} new ones.\n`
+  // ${JSON.stringify(revokeResults)}, ${JSON.stringify(
+  //   authResults
+  // )} \n\n`
   fs.appendFileSync(logFilename, updateMessage)
 })()
