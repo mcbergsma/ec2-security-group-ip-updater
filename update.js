@@ -49,7 +49,7 @@
         let IpRanges = []
         if (
           typeof item.Description !== 'undefined' &&
-          item.Description.includes('Mike@Home')
+          item.Description.includes(process.env.RULEDESCRIPTION)
         ) {
           IpRanges.push(item)
         }
